@@ -1,75 +1,17 @@
-# Nuxt 3 Minimal Starter
+## Global State Not Sync on SSR
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+```
+$ yarn dev
 ```
 
-## Development Server
+🙅‍♂️ flush UI State
+http://localhost:3000/ssr-child-to-parent
 
-Start the development server on `http://localhost:3000`:
+🙆‍♂️
+http://localhost:3000/ssr-parent-to-child
 
-```bash
-# npm
-npm run dev
+🙆‍♂️
+http://localhost:3000/spa
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+please read it (sorry in Japanese)
+[zenn](https://zenn.dev/soneda_yusuke/articles/ad1e7a51513ece)
